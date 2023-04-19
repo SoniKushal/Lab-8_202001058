@@ -1,12 +1,13 @@
 # Lab-8_202001058
 
-# Name - Kushal Soni
-# ID - 202001058
+# Name: Kushal Soni
+# ID: 202001058
 
-## 1. Creating a new Eclipse project, and within the project create a package and defining the class
+# Lab Ex:
+## 1. 
 <img src="https://user-images.githubusercontent.com/95064151/233036757-48d69020-3270-44bc-9c8b-c8443862f8ff.png">
 
-### 2. Test method to test the behaviour of the Boa class : 
+### 2.
 ```
 import org.junit.Assert;
 import org.junit.Test;
@@ -36,7 +37,7 @@ public class BoaTest {
 <img src="https://user-images.githubusercontent.com/95064151/233039273-d00304f8-2deb-4061-af0c-b76a2254d573.png">
 </br>
 
-### 3. Modified setUp() method in the BoaTest class : 
+### 3. 
 ```
 public class BoaTest {
     private Boa jen;
@@ -54,7 +55,7 @@ public class BoaTest {
 <img src="https://user-images.githubusercontent.com/95064151/233043524-77bdff56-2e7b-4f43-bd8a-0ca06593abf9.png">
 </br>
 
-### 4. Modified testIsHealthy() method in the BoaTest class : 
+### 4. 
 ```
 @Test
 public void testIsHealthy() {
@@ -67,8 +68,7 @@ public void testIsHealthy() {
 ```
 </br>
 
-### 5. Modified testFitsInCage() method in the BoaTest class : 
-```
+### 5.
 @Test
 public void testFitsInCage() {
     // Test for jen
@@ -81,13 +81,12 @@ public void testFitsInCage() {
     assertTrue(ken.fitsInCage(3)); // cage length is equal to length of boa
     assertTrue(ken.fitsInCage(4)); // cage length is greater than length of boa
 }
-```
-</br>
 
-### 6. Running test cases
+
+### 6.
 <img src="https://user-images.githubusercontent.com/95064151/233043180-b2f14800-de7b-4d43-a372-2e3cfdc44d44.png">
 
-### 7. Here's the modified Boa class with the new lengthInInches() method:
+### 7. 
 ```
 public class Boa {
     private String name;
